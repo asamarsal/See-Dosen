@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "559009681704",
+    "firebase_url": "https://seedosenfix.firebaseio.com",
+    "project_id": "seedosenfix",
+    "storage_bucket": "seedosenfix.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559009681704:android:3cad358bc75d7d2470801d",
+        "android_client_info": {
+          "package_name": "com.tugasuas.seedosen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559009681704-78e7h11fn4mjekv81ngcelv7npderc6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tugasuas.seedosen",
+            "certificate_hash": "df08b92f1ee7e6be2e39b736d3d42d82334d1820"
+          }
+        },
+        {
+          "client_id": "559009681704-cihkesia6vub39gjp30598uin94i5aja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKD89kRIp-vjhFfCnMfI4qtGPFwCc8TSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559009681704-cihkesia6vub39gjp30598uin94i5aja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

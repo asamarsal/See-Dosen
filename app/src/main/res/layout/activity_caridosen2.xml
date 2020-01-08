@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgungugradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bgungutua">
+
+            <TextView
+                android:id="@+id/judulapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nama_aplikasi"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColorHighlight="#FFFFFF">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp">
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:background="@drawable/roundedborder2"
+                    android:textAlignment="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:prompt="@string/title2"
+                    android:entries="@array/items2"/>
+
+
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:background="@drawable/roundedborder">
+
+                <TextView
+                    android:id="@+id/gedung1lantai1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_gedung1lantai1"
+                    android:textSize="35sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:textColor="#000000">
+
+                </TextView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/namadosen_scroll">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/roundedborder"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:id="@+id/fotodosen7"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/contoh_fotodosen">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/dosen7a"
+                        android:layout_width="240dp"
+                        android:layout_height="match_parent"
+                        android:textSize="22sp"
+                        android:paddingTop="18dp"
+                        android:text="@string/title_dosen7"
+                        android:textAlignment="center"
+                        android:textColor="#000000">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/greydot"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/roundedborder"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:id="@+id/fotodosen8"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/contoh_fotodosen">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/dosen8"
+                        android:layout_width="240dp"
+                        android:layout_height="match_parent"
+                        android:textSize="22sp"
+                        android:paddingTop="18dp"
+                        android:text="@string/title_dosen8"
+                        android:textAlignment="center"
+                        android:textColor="#000000">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/greydot"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/roundedborder"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:id="@+id/fotodosen9"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/contoh_fotodosen">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/dosen9"
+                        android:layout_width="240dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="18dp"
+                        android:textSize="22sp"
+                        android:text="@string/title_dosen9"
+                        android:textAlignment="center"
+                        android:textColor="#000000">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/greydot"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/roundedborder"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:id="@+id/fotodosen10"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/contoh_fotodosen">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/dosen10"
+                        android:layout_width="240dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="18dp"
+                        android:textSize="22sp"
+                        android:text="@string/title_dosen10"
+                        android:textAlignment="center"
+                        android:textColor="#000000">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/greydot"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/roundedborder"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:id="@+id/fotodosen11"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/contoh_fotodosen">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/dosen11"
+                        android:layout_width="240dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="18dp"
+                        android:textSize="22sp"
+                        android:text="@string/title_dosen11"
+                        android:textAlignment="center"
+                        android:textColor="#000000">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/greydot"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/roundedborder"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:id="@+id/fotodosen12"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/contoh_fotodosen">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/dosen12"
+                        android:layout_width="240dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="18dp"
+                        android:textSize="22sp"
+                        android:text="@string/title_dosen12"
+                        android:textAlignment="center"
+                        android:textColor="#000000">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/greydot"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/roundedborder"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:id="@+id/fotodosen13"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/contoh_fotodosen">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/dosen13"
+                        android:layout_width="240dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="18dp"
+                        android:textSize="22sp"
+                        android:text="@string/title_dosen13"
+                        android:textAlignment="center"
+                        android:textColor="#000000">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/greydot"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/roundedborder"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:id="@+id/fotodosen14"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/contoh_fotodosen">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/dosen14"
+                        android:layout_width="240dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="18dp"
+                        android:textSize="22sp"
+                        android:text="@string/title_dosen14"
+                        android:textAlignment="center"
+                        android:textColor="#000000">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/greydot"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/roundedborder"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:id="@+id/fotodosen15"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/contoh_fotodosen">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/dosen15"
+                        android:layout_width="240dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="18dp"
+                        android:textSize="22sp"
+                        android:text="@string/title_dosen15"
+                        android:textAlignment="center"
+                        android:textColor="#000000">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/greydot"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/roundedborder"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:id="@+id/fotodosen16"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/contoh_fotodosen">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/dosen16"
+                        android:layout_width="240dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="18dp"
+                        android:textSize="22sp"
+                        android:text="@string/title_dosen16"
+                        android:textAlignment="center"
+                        android:textColor="#000000">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/greydot"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/roundedborder"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:id="@+id/fotodosen17"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:src="@mipmap/contoh_fotodosen">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/dosen17"
+                        android:layout_width="240dp"
+                        android:layout_height="match_parent"
+                        android:paddingTop="18dp"
+                        android:textSize="22sp"
+                        android:text="@string/title_dosen17"
+                        android:textAlignment="center"
+                        android:textColor="#000000">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/greydot"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp">
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

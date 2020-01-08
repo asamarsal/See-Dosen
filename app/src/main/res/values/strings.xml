@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">See Dosen</string>
+    <string name="nama_aplikasi">See Dosen</string>
+    <string name="nama_mahasiswa">Mamang Garox</string>
+    <string name="nomor_mahasiswa">17.11.1717</string>
+    <string name="cek_dosen">Cek Dosen</string>
+    <string name="chat_dosen">Chat Dosen</string>
+    <string name="cek_profil">Cek Profil</string>
+    <string name="penjelasan_cekdosen"></string>
+    <string name="penjelasan_search">Cari Nama Dosen...</string>
+    <string name="namadosen">Raditya Maulana M.Kom</string>
+    <string name="matkuldosen">Fotografi</string>
+
+    <string name="title_home">Cek Dosen</string>
+    <string name="title_dashboard">Chat Dosen</string>
+    <string name="title_notifications">Akunku</string>
+    <string name="title_pilihgedung">Pilih Gedung</string>
+    <string name="title_pilihlantai">Pilih Lantai</string>
+    <string name="title_klikcari">Cari</string>
+
+    <string name="title_pilihangedung">Gedung 1</string>
+    <string name="title_pilihanlantai">Lantai 2</string>
+
+    <string name="title_dosen1">ABDIANSAH</string>
+    <string name="title_dosen2">ABIDARIN ROSIDI</string>
+    <string name="title_dosen3">ACHMAD FAUZAN</string>
+    <string name="title_dosen4">ACHMAD FAUZI</string>
+    <string name="title_dosen5">ACIHMAH SIDAURUK</string>
+    <string name="title_dosen6">ADE PUJIANTO</string>
+    <string name="title_dosen7">ADI DJAYUSMAN</string>
+    <string name="title_dosen8">ADITYA MAULANA HASYMI</string>
+    <string name="title_dosen9">ADITYA RIZKI YUDIANTIKA</string>
+    <string name="title_dosen10">ADRIAN</string>
+    <string name="title_dosen11">AFIUDDIN AHMADI</string>
+    <string name="title_dosen12">AFRIG AMINUDDIN</string>
+    <string name="title_dosen13">AFRINIA LISDITYA PERMATASARI</string>
+    <string name="title_dosen14">AGIT AMRULLAH</string>
+    <string name="title_dosen15">AGUNG NUGROHO</string>
+    <string name="title_dosen16">AGUNG NUGROHO</string>
+    <string name="title_dosen17">AGUNG PAMBUDI</string>
+    <string name="title_dosen18">AGUNG YULIANTO NUGROHO</string>
+    <string name="title_dosen19">AGUS FATKHUROHMAN</string>
+    <string name="title_dosen20">AGUS HARJOKO</string>
+    <string name="title_dosen21">AGUS MULYANTO</string>
+    <string name="title_dosen27">AGUS PURWANTO</string>
+    <string name="title_dosen28">AGUSTINA RAHMAWATI</string>
+    <string name="title_dosen29">AHLIHI MASRURO</string>
+    <string name="title_dosen30">AHMAD ASHARI</string>
+    <string name="title_dosen31">AHMAD HAFIDH AZKIA</string>
+    <string name="title_dosen32">AHMAD KHAIRUL NUZULI</string>
+    <string name="title_dosen33">AHMAD LUTHFI</string>
+    <string name="title_dosen34">AHMAD SA`DI</string>
+    <string name="title_dosen35">AHMAD SUMIYANTO</string>
+    <string name="title_dosen36">AHMAD ZAID RAHMAN</string>
+    <string name="title_dosen37">AINUL YAQIN</string>
+    <string name="title_dosen38">AKHMAD DAHLAN</string>
+    <string name="title_dosen39">ALFIE NUR RAHMI</string>
+    <string name="title_dosen40">ALFRIADI DWI ATMOKO</string>
+    <string name="title_dosen41">ALI MUSTOPA</string>
+    <string name="title_dosen42">ALI SOFWAN</string>
+    <string name="title_dosen43">ALVIAN ALRASID AJIBULLOH</string>
+    <string name="title_dosen44">AMIR FATAH SOFYAN</string>
+    <string name="title_dosen45">ANA PARTINA</string>
+    <string name="title_dosen46">ANANG SH</string>
+    <string name="title_dosen47">ANDHIKA RISKI SOETRISNO</string>
+    <string name="title_dosen48">ANDI SUNYOTO</string>
+
+
+    <string name="title_pencarian">Cari Dosen</string>
+
+    <string name="title_infoakun">Info Akun</string>
+
+    <string name="title_welcome">Welcome</string>
+
+    <string name="title_emaillogin">Email</string>
+    <string name="title_nim">Nim</string>
+    <string name="title_email">Email</string>
+    <string name="title_password">Password</string>
+    <string name="title_save">Simpan</string>
+    <string name="title_daftar">Daftar</string>
+    <string name="title_send">Kirim</string>
+    <string name="title_login">Login</string>
+    <string name="title_kirimpesan">Ketikkan Pesan Anda...</string>
+    <string name="title_tidakpunyaakun">Tidak Punya Akun, Daftar Sekarang...</string>
+    <string name="title_persetujuan">Apakah kamu telah membaca semua persetujuan yang berlaku pada aplikasi ini...</string>
+    <string name="title_username">Username</string>
+    <string name="title_semuadosen">Semua Dosen</string>
+    <string name="title_gedung1lantai1">Gedung 1 Lantai 1</string>
+    <string name="title_gedung1lantai2">Gedung 1 Lantai 2</string>
+    <string name="title_gedung3lantai1">Gedung 3 Lantai 1</string>
+    <string name="title_gedung3lantai2">Gedung 3 Lantai 2</string>
+    <string name="title_gedung4lantai2">Gedung 4 Lantai 2</string>
+    <string name="title_gedung6lantai1">Gedung 6 Lantai 1</string>
+    <string name="title_gedung6lantai2">Gedung 6 Lantai 2</string>
+    <string name="title_gedung7lantai2">Gedung 7 Lantai 2</string>
+
+
+    <string-array name="pilihangedung">
+        <item>Gedung 1</item>
+        <item>Gedung 2</item>
+        <item>Gedung 3</item>
+        <item>Gedung 4</item>
+        <item>Gedung 6</item>
+        <item>Gedung 7</item>
+    </string-array>
+
+    <string-array name="pilihanlantai">
+        <item>Lantai 1</item>
+        <item>Lantai 2</item>
+        <item>Lantai 3</item>
+    </string-array>
+
+    <string-array name="restaurantList">
+        <item>Cari Ruang Dosen…</item>
+        <item>Gedung 1 Lantai 1</item>
+        <item>Gedung 1 Lantai 2</item>
+        <item>Gedung 3 Lantai 1</item>
+        <item>Gedung 3 Lantai 2</item>
+        <item>Gedung 4 Lantai 2</item>
+        <item>Gedung 6 Lantai 1</item>
+        <item>Gedung 6 Lantai 2</item>
+        <item>Gedung 7 Lantai 2</item>
+    </string-array>
+
+    <string name="title">select</string>
+    <string-array name="items">
+        <item>Cari Ruang Dosen…</item>
+        <item>Gedung 1 Lantai 1</item>
+        <item>Gedung 1 Lantai 2</item>
+        <item>Gedung 3 Lantai 1</item>
+        <item>Gedung 3 Lantai 2</item>
+        <item>Gedung 4 Lantai 2</item>
+        <item>Gedung 6 Lantai 1</item>
+        <item>Gedung 6 Lantai 2</item>
+        <item>Gedung 7 Lantai 2</item>
+    </string-array>
+
+    <string name="title2">select</string>
+    <string-array name="items2">
+        <item>Cari Ruang Dosen…</item>
+        <item>Semua Dosen</item>
+        <item><FONT COLOR="#006600">Gedung 1 Lantai 2</FONT></item>
+        <item>Gedung 3 Lantai 1</item>
+        <item>Gedung 3 Lantai 2</item>
+        <item>Gedung 4 Lantai 2</item>
+        <item>Gedung 6 Lantai 1</item>
+        <item>Gedung 6 Lantai 2</item>
+        <item>Gedung 7 Lantai 2</item>
+    </string-array>
+
+</resources>
